@@ -21,6 +21,15 @@ let arrNum1=[33,12,45,67,90];
 multiply(arrNum1);
 
 //Question three
+function numArray(num1){
+    const fourItems = num1.slice(0, 4).map(number => number * 8);
+    const twoItems = num1.slice(-2).map(number => number + 5);
+    const combined = [...fourItems, ...twoItems];
+    console.log(combined);
+}
+let my_array= [19, 89, 57, 40,98 , 60, 76, 51, 90, 100];
+numArray(my_array);
+
 //Question four
 
 function breakAtFour(arrNum){
