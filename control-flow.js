@@ -34,7 +34,7 @@ numArray(my_array);
 
 function breakAtFour(arrNum){
 for(let i=0; i<arrNum.length;i++){
-    if(i==5){
+    if(i===5){
         break;
     }
     console.log({"num":arrNum[i]});
@@ -48,7 +48,7 @@ for(let i=0; i<arrNum.length;i++){
     function fruits(arrFruits){
     
     for(let i=0; i<arrFruits.length;i++){
-        if(i==2){
+        if(i===2){
             continue;
         }
         console.log({"continue":arrFruits[i]});
